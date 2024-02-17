@@ -3,8 +3,8 @@ const DB = process.env.DATABASE;
 console.log('DB:', DB); // Add this line
 mongoose
   .connect(DB, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
     // usecreateIndex: true,
     // usefindAndModify: false,
   })
